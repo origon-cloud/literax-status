@@ -1,29 +1,49 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: origon-cloud # Your GitHub organization or username, where this repository lives
+repo: literax-status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-
+# QA ENV
+  - name: Literax-QA
+    url: https://literaxqa.origon.cloud/
+  - name: Literax-QA_chat-script
+    url: https://front.literaxqa.origon.app/chat_element/lit-chat.min.js
+  - name: Literax-QA_drive-script
+    url: https://front.literaxqa.origon.app/widget/lit-drive.min.js
+  - name: Literax-QA_onlyoffice-script
+    url: https://texteditor.literaxqa.origon.app/web/js/webcomponent.onlyoffice.min.js
+  - name: Literax-QA_api
+    url: https://api.literaxqa.origon.app/api/v2/users
+    expectedStatusCodes:
+      - 401
+  - name: Literax-QA_signature-widget
+    url: https://front.literaxqa.origon.app/widgets/
+# DEMO ENV
+  - name: Literax-DEMO
+    url: https://literaxdemo.origon.cloud/
+  - name: Literax-DEMO_chat-script
+    url: https://front.literaxdemo.origon.app/chat_element/lit-chat.min.js
+  - name: Literax-DEMO_drive-script
+    url: https://front.literaxdemo.origon.app/widget/lit-drive.min.js
+  - name: Literax-DEMO_api
+    url: https://api.literaxdemo.origon.app/api/v2/users
+    expectedStatusCodes:
+      - 401
+  - name: Literax-DEMO_signature-widget
+    url: https://front.literaxdemo.origon.app/widgets/
+    
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  # cname: demo.upptime.js.org
+  baseUrl: /literax-healts
+  logoUrl: https://i.ibb.co/LZx9dFs/7-3-literax-fondo-blanco.png
+  name: Healts
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
-      href: /
+      href: /literax-healts
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 

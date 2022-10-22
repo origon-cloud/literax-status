@@ -1,7 +1,7 @@
 url: https://front.literaxdemo.origon.app/chat_element/lit-chat.min.js
-status: up
-code: 200
-responseTime: 2300
-lastUpdated: 2022-10-22T14:51:55.977Z
+status: down
+code: 502
+responseTime: 344
+lastUpdated: 2022-10-22T15:18:05.309Z
 startTime: Fri Oct 14 2022 20:22:52 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>

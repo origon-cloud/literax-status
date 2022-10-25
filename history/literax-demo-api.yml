@@ -1,7 +1,7 @@
 url: https://api.literaxdemo.origon.app/api/v2/users
-status: down
-code: 502
-responseTime: 456
-lastUpdated: 2022-10-25T07:28:43.406Z
+status: up
+code: 401
+responseTime: 19843
+lastUpdated: 2022-10-25T10:36:01.536Z
 startTime: Fri Oct 14 2022 20:22:57 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
